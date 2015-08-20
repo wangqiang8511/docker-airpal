@@ -1,4 +1,4 @@
-# Apache Hive
+# Presto Airpal
 
 Simple docker images for airpal
 
@@ -24,3 +24,7 @@ hack/migrate_db.sh
 # Start Airpal server
 hack/start_server.sh
 ```
+
+## Reference
+
+[Airpal](https://github.com/airbnb/airpal)
