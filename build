@@ -1,0 +1,3 @@
+. VERSION
+docker build -t ${IMAGE} .
+docker tag -f ${IMAGE}:latest ${IMAGE}:$TAG

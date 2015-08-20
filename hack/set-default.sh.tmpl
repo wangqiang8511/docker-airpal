@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+IMAGE=airpal:latest
+
+DB_USER=${DB_USER:-root}
+DB_PASS=${DB_PASS:-root}
+DB_JDBC_URL=${DB_JDBC_URL:-jdbc:mysql://your.mysql.com:3306/airpal}
+PRESTO_COORDINATOR=${PRESTO_COORDINATOR:-http://your.presot.com:9083}
